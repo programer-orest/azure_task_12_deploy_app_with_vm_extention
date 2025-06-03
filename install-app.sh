@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to silently install and start the todo web app on the virtual machine. 
+# Script to silently install and start the todo web app on the virtual machine.
 # Note that all commands bellow are without sudo - that's because extention mechanism
 # runs scripts under root user.
 git clone https://github.com/programer-orest/azure_task_12_deploy_app_with_vm_extention.git

@@ -48,8 +48,8 @@ $Params = @{
   ExtensionType = 'CustomScript'
   TypeHandlerVersion = '2.1'
   Settings = @{
-    fileUris = @('https://github.com/programer-orest/azure_task_12_deploy_app_with_vm_extention/blob/main/install-app.sh')
-    commandToExecute = 'bash ./install-app.sh'
+    fileUris = @('https://raw.githubusercontent.com/programer-orest/azure_task_12_deploy_app_with_vm_extention/main/install-app.sh')
+    commandToExecute = 'bash install-app.sh'
   }
 }
 Set-AzVMExtension @Params
